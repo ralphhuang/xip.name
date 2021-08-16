@@ -51,7 +51,7 @@ import (
 var (
 	verbose = flag.Bool("v", false, "Verbose")
 	fqdn    = flag.String("fqdn", "xip.name.", "FQDN to handle")
-	addr    = flag.String("addr", ":53", "The addr to bind on")
+	addr    = flag.String("addr", ":11220", "The addr to bind on")
 	ip      = flag.String("ip", "188.166.43.179", "The IP of xip.name")
 
 	ipPattern = regexp.MustCompile(`(\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})`)
